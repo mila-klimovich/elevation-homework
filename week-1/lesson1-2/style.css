@@ -1,0 +1,63 @@
+#container {
+    background-color: grey;
+    width:fit-content;
+    box-shadow:0.1cm 5px 5px 0px;
+}
+
+#first{
+display:inline-block;
+background-color: green;
+border: 1px solid black;
+width: 50px;
+height: 50px;
+}
+
+#second {
+display: inline-block;
+    background-color: orange;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.button{
+    border: 1px solid green;
+    background-color: greenyellow;
+    height: 25px;
+}
+
+input {
+    height: 20px;
+}
+
+#containerTwo{
+    margin-top: 50px;
+    height: 50px;
+    display: flex;
+}
+
+#firstSection {
+    background-color: pink;
+    width: calc(100% - 20px);
+    height: 50px;
+}
+
+#secondSection {
+    background-color: red;
+    width: 20px;
+    height: 50px;
+}
+
+#containerTree{
+    width: 40%;
+    height: 100px;
+    background-color: pink;
+    margin-top: 50px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.sections{
+    width: calc(100% / 3);
+    border: 1px solid black;
+}

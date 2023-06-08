@@ -1,0 +1,21 @@
+body{
+    background-image: url("lake-img.jpg");
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#firstTitle{
+    background-color: rgba(128, 14, 177, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 20px;
+    margin: 0px;
+}
+
+#secondTitle{
+    background-color: rgba(128, 14, 177, 1);
+    color: rgba(0, 0, 0, 1);
+    width: 400px;
+    padding: 20px;
+    margin: 0px;
+}

@@ -1,0 +1,61 @@
+#box {
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#money{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+}
+
+#time{
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.column {
+    background-color: grey;
+    width: 20px;
+    bottom: 5px;
+    position: absolute;
+}
+
+#one{
+    height: 30px;
+    left: 5px;
+}
+
+#two{
+    height: 80px;
+    left: 60px;
+}
+
+#three{
+    height: 130px;
+    left: 120px;
+}
+
+#four{
+    height: 100px;
+    left: 180px;
+}
+
+#five{
+    height: 80px;
+    left: 240px;
+}
+
+#six{
+    height: 60px;
+    left: 300px;
+}

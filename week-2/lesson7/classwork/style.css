@@ -1,0 +1,32 @@
+div {
+    margin: 0 auto;
+    width: 30%;
+    position: relative;
+}
+
+div > img {
+    width: 100%;
+}
+
+#topLeft {
+    position: absolute;
+    left: 0;
+}
+
+#bottomLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#topRight {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#bottomRight{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
