@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin: 0 auto;
+    font-family: 'Open Sans', serif;
+    background: #f5f5f5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+header {
+    padding: 20px 40px;
+    background: #fff;
+    align-items: center;
+}
+
+header h1 {
+    grid-column: span 6;
+}
+
+header nav {
+    grid-column: span 6;
+    justify-self: end;
+}
+
+header nav a {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1400px;
+    padding: 60 auto;
+    padding: 20px;
+}
+
+main img {
+    grid-column: span 6;
+    width: 100%;
+    border-radius: 5px;
+}
+
+main .welcome {
+    grid-column: 8 / span 5;
+}
+
+main > h2 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+main .card {
+    grid-column: span 4;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    padding: 20px 40px;
+    background: #fff;
+    align-items: center;
+}
+
+footer nav {
+    grid-column: span 12;
+    justify-self: end;
+}
+
+footer nav a {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+    
+}

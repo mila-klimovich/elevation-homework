@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+
+}
+
+#chat {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas:
+        "f c"
+        "f i";
+}
+
+#friends {
+    grid-area: f;
+    display: grid;
+    background-color: purple;
+    padding: 10px;
+}
+
+#friends p {
+    background-color: blueviolet;
+    height: fit-content;
+    padding: 5px;
+}
+
+#chatbox {
+    grid-area: c;
+    display: grid;
+    background-color: #ccc;
+    padding: 50px 15px;
+}
+
+#input {
+    grid-area: i;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.right {
+    justify-self: end;
+    background-color: green;
+}
+
+.left {
+    justify-self: start;
+    background-color: grey;
+}
+
+#input input {
+    border: transparent;
+    border-top: 1px solid lightslategray;
+}
+
+#input div {
+    background-color: purple;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    position: relative;
+    border-radius: 5px;
+    padding: 5px;
+    height: fit-content;
+}
+
+.time {
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+    font-size: 12px;
+}
