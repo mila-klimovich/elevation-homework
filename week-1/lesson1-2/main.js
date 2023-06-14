@@ -232,7 +232,7 @@ if(reservations[name]?.claimed) {
 } else if (reservations[name]){
     console.log("Welcome, " + name);
 } else {
-    // console.log("You dont have a reservation");
+    console.log("You dont have a reservation");
     reservations[name] = { clamed : true };
 }
 

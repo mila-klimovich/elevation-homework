@@ -3,17 +3,22 @@
 body {
     margin: 0 auto;
     font-family: 'Open Sans', serif;
-    background: #f5f5f5;
+    background: #f5f5f5;     
+}
+
+.container{
+    height: 100%;
+    width: fit-content;
 }
 
 .grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    gap: 30px;
+    gap: 20px;
 }
 
 header {
-    padding: 20px 40px;
+    padding: 10px 20px;
     background: #fff;
     align-items: center;
 }
@@ -34,15 +39,16 @@ header nav a {
 }
 
 main {
-    max-width: 1400px;
-    padding: 60 auto;
+    padding: 20px 40px;
     padding: 20px;
 }
 
 main img {
     grid-column: span 6;
-    width: 100%;
+    width: 60%;
     border-radius: 5px;
+    padding: 0px 40px;
+
 }
 
 main .welcome {
@@ -52,14 +58,14 @@ main .welcome {
 main > h2 {
     grid-column: span 12;
     text-align: center;
-    font-size: 1.5em;
-    padding-top: 20px;
+    font-size: 1.1em;
+    padding-top: 10px;
 }
 
 main .card {
     grid-column: span 4;
     background: #fff;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
@@ -79,5 +85,4 @@ footer nav a {
     color: #333;
     margin-left: 10px;
     text-decoration: none;
-    
 }
