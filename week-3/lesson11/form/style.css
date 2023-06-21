@@ -1,0 +1,15 @@
+.salaryAndDate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.salaryAndDate div {
+    margin-right: 10px;
+}
+
+#container {
+    padding: 15px;
+    border: 1px solid black;
+    width: fit-content;
+}
