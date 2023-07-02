@@ -1,0 +1,36 @@
+.yellow {
+    background-color: yellow;
+    font-size: large;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.hover{
+    background-color: blue;
+}
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+} */
+
+.mine {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: pink;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    display: inline-block;
+}
