@@ -1,0 +1,42 @@
+{
+  "name": "Eastern Gray Squirrel",
+  "weight": {
+    "kilograms": 0.5,
+    "tons": 0.0005
+  },
+  "habitat": "Forests and urban areas",
+  "endangered": false,
+  "foods": [
+    {
+      "name": "Nuts",
+      "percentage": 40
+    },
+    {
+      "name": "Seeds",
+      "percentage": 25
+    },
+    {
+      "name": "Fruits",
+      "percentage": 15
+    },
+    {
+      "name": "Berries",
+      "percentage": 10
+    },
+    {
+      "name": "Buds",
+      "percentage": 5
+    },
+    {
+      "name": "Fungi",
+      "percentage": 5
+    }
+  ],
+  "predators": [
+    "Hawks",
+    "Owls",
+    "Foxes",
+    "Snakes"
+  ],
+  "deliciousness": 3
+}

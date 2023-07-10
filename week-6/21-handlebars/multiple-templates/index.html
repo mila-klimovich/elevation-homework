@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script id="first-template" type="text/x-handlebars-template">
+      My text: {{text}}
+    </script>
+    
+    <div id="normal">Regular HTML Stuff</div>
+    
+    <script id="second-template" type="text/x-handlebars-template">
+    My HB text: {{moreText}}
+    </script>
+    
+    <p id="special"></p>
+
+    <script id="animals-template" type="text/x-handlebars-template">
+        <ul>
+            {{#each animals}}
+            <li><span>{{this}} is cute</span></li>
+            {{/each}}
+        </ul>
+    </script>
+
+    <div id="animals"></div>
+
+    <script id="languages-template" type="text/x-handlebars-template">
+        <div>
+            {{#each languages}}
+            <p>{{this}} is easy to learn</p>
+            {{/each}}
+        </div>
+    </script>
+
+    <div id="languages"></div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
